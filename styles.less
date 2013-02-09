@@ -28,12 +28,11 @@ body{font-family:'Open Sans',sans-serif;
 	 background-color: @white;
 }
 header {
-	position: fixed;
+	position: relative;
 	font-size: 14px;
-	left:85%;
-	bottom: 2%;
+	width: 100%;
 	
-	text-align: left;
+	text-align: center;
 }
 .content {
 	width: 60%;
@@ -77,8 +76,8 @@ li img {
 }
 
 .item:hover img {
-	.transition();
-	opacity: 0.2;
+	.transition(all,0.7s,ease-in-out);
+	opacity: 0.1;
 }
 
 .item2-1 {
@@ -109,10 +108,10 @@ a {
     .transition();
 
 
-    animation:mymove 0.4s 1;
-	-moz-animation:mymove 0.4s 1; /* Firefox */
-	-webkit-animation:mymove 0.4s 1; /* Safari and Chrome */
-	-o-animation:mymove 0.4s 1; /* Opera */
+    animation:mymove 1s 1;
+	-moz-animation:mymove 1s 1; /* Firefox */
+	-webkit-animation:mymove 1s 1; /* Safari and Chrome */
+	-o-animation:mymove 1s 1; /* Opera */
 }
 
 @keyframes mymove
